@@ -11,10 +11,7 @@ public class CalculatorApp extends Application {
 
         //text field
 
-        TextField numberDisplay= new TextField();
-        numberDisplay.relocate(90,100);
-        numberDisplay.setPrefSize(235,75);
-        numberDisplay.setFont(Font.font(20));
+
         //Button plan
 
         ButtonPane Buttons= new ButtonPane();
@@ -22,7 +19,7 @@ public class CalculatorApp extends Application {
 
 
 
-        aPane.getChildren().addAll(numberDisplay, Buttons);
+        aPane.getChildren().addAll(Buttons);
 
         Scene scene = new Scene(aPane, 400, 800);
         primaryStage.setScene(scene);
