@@ -1,6 +1,5 @@
 import javafx.application.Application;
 import javafx.scene.Scene;
-import javafx.scene.control.Button;
 import javafx.scene.control.TextField;
 import javafx.scene.layout.Pane;
 import javafx.scene.text.Font;
@@ -13,7 +12,7 @@ public class CalculatorApp extends Application {
         //text field
 
         TextField numberDisplay= new TextField();
-        numberDisplay.relocate(90,150);
+        numberDisplay.relocate(90,100);
         numberDisplay.setPrefSize(235,75);
         numberDisplay.setFont(Font.font(20));
         //Button plan
