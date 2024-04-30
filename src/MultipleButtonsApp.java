@@ -15,7 +15,7 @@ public class MultipleButtonsApp extends Application {
         for(int row=0; row<4; row++) {
             for (int col=0; col<3; col++) {
                 buttons[row][col] = new Button(buttonLabels[row*3+col]);
-                buttons[row][col].relocate(50+col*70, 18+row*70);
+                buttons[row][col].relocate(10+col*10, 18+row*70);
                 buttons[row][col].setPrefSize(90,80);
                 buttons[row][col].setOnAction(new EventHandler<ActionEvent>() {
 
