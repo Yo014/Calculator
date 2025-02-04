@@ -63,7 +63,8 @@ The project consists of two main Java classes:
 ---
 
 ## Screenshot
-![Calculator App Screenshot](screenshot.png)  
+![Calculator App Screenshot](![image](https://github.com/user-attachments/assets/b85b0044-8e3c-4666-8147-e59e7ba23c18)
+)  
 *(Replace `screenshot.png` with an actual screenshot of your application.)*
 
 ---
