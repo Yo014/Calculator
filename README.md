@@ -45,7 +45,7 @@ The project consists of two main Java classes:
 ## Running the Application
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/your-username/calculator-app.git
+   git clone https://github.com/Yo014/calculator-app.git
    ```
 2. **Navigate to the Project Directory**:
    ```bash
