@@ -1,43 +1,75 @@
-Java GUI Calculator
-This project is a Graphical User Interface (GUI) Calculator built using Java and JavaFX. It provides basic arithmetic operations like addition, subtraction, multiplication, and division, with an intuitive and user-friendly interface.
+# Calculator App
 
-Features
--  Basic Arithmetic Operations: Perform addition, subtraction, multiplication, and division.
--  Negative Number Conversion: A +/- button to toggle the sign of a number.
--  Clear Display: AC button to reset the calculator.
--  Decimal Support: Use a decimal point for precise calculations.
--  Immediate Feedback: Live updates to the display as buttons are pressed.
+A simple JavaFX-based calculator application that performs basic arithmetic operations such as addition, subtraction, multiplication, and division. The calculator also supports clearing the display, toggling the sign of a number, and handling decimal points.
 
-Interface Overview
--  Numeric Buttons: 0–9 for number inputs.
--  Operator Buttons: +, -, *, / for arithmetic operations.
--  Special Buttons:
- - -  AC: Clears all inputs and resets the state.
- - -  +/-: Toggles the sign of the current number.
- - -  .: Adds a decimal point.
-- -  =: Computes the result of the entered operation.
-    
-Code Overview
-The project is structured with two main classes:
+---
 
- 1.ButtonPane:
+## Features
+- **Basic Arithmetic Operations**: Addition, subtraction, multiplication, and division.
+- **Clear Display**: Reset the calculator to its initial state.
+- **Sign Toggle**: Toggle the sign of the displayed number (positive/negative).
+- **Decimal Point**: Support for decimal numbers.
+- **Responsive Layout**: Buttons and display are neatly arranged for ease of use.
 
-  -  Contains the buttons and their layout.
-  -  Handles event-driven actions for number and operator buttons.
-  -  Updates the display (TextField) based on user interaction.
-  -  Performs calculations using the calculate method, which determines the result based on the operator.
-    
- 2.CalculatorApp:
+---
 
-  -  The main entry point of the application.
-  -  Sets up the JavaFX Stage and Scene.
-  -  Integrates the ButtonPane and display field into the application window.
-    
-How to Run
+## How to Use
+1. **Enter Numbers**: Click the number buttons (`0-9`) to input numbers.
+2. **Decimal Point**: Use the `.` button to add a decimal point.
+3. **Operators**: Use the `+`, `-`, `*`, and `/` buttons to perform arithmetic operations.
+4. **Equals**: Press the `=` button to compute the result.
+5. **Clear**: Use the `AC` button to clear the display and reset the calculator.
+6. **Toggle Sign**: Use the `+/-` button to toggle the sign of the displayed number.
 
--  Ensure you have JavaFX set up on your system.
--  Compile and run the application:
- - -  javac CalculatorApp.java
- - -  java CalculatorApp
-     
+---
+
+## Code Structure
+The project consists of two main Java classes:
+
+### 1. **`CalculatorApp.java`**
+- The main application class that sets up the JavaFX stage and scene.
+- Initializes the calculator's user interface, including the display and button layout.
+
+### 2. **`ButtonPane.java`**
+- Handles the creation and functionality of all calculator buttons.
+- Implements event handling for button clicks and performs calculations based on user input.
+
+---
+
+## Prerequisites
+- **Java Development Kit (JDK)**: Ensure you have JDK 8 or later installed.
+- **JavaFX**: The application uses JavaFX for the graphical user interface. Ensure JavaFX is set up in your development environment.
+
+---
+
+## Running the Application
+1. **Clone the Repository**:
+   ```bash
+   git clone https://github.com/your-username/calculator-app.git
+   ```
+2. **Navigate to the Project Directory**:
+   ```bash
+   cd calculator-app
+   ```
+3. **Compile the Code**:
+   ```bash
+   javac CalculatorApp.java ButtonPane.java
+   ```
+4. **Run the Application**:
+   ```bash
+   java CalculatorApp
+   ```
+
+---
+
+## Screenshot
+![Calculator App Screenshot](screenshot.png)  
+*(Replace `screenshot.png` with an actual screenshot of your application.)*
+
+---
+
+## Credits
+- **Developer**: [Santo Mukiza]  
+
+---
 
